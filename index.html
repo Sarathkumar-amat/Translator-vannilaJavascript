@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-color: rgb(237, 245, 13);
+        }
+        textarea{
+            width: 80%;
+            height:10vh;
+            display:block;
+            margin:1rem;
+            padding:1rem;
+            background-color: rgb(223, 236, 40);
+        }
+        #output{
+            border:1px solid black;
+            width:80%;
+            height:10vh;
+            margin:1rem;
+            padding:1rem;
+            background-color:rgb(234, 240, 150)
+        }
+        header{
+            background-color: rgba(211, 225, 19, 0.847);
+            /* width: 50%; */
+            text-align: center;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Yodish Translator App</h1>
+    </header>
+    
+    <textarea id="txt-inp" placeholder="your text comes here"></textarea>
+    <center><button id="btn-select" >Translate</button></center>
+    <h2>Output</h2>
+    <div id="output"></div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
